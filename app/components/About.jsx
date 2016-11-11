@@ -12,7 +12,7 @@ var React = require('react');
 var About = (props) => {
 	return (
 			<div>
-				<h1>About</h1>
+				<h1 className="page-title">About</h1>
 				<p>This is the weather predictor app made using React, a javascript library. This is my first React app.</p>
 				<p>Here are the tools i used:</p>
 				<ul>
