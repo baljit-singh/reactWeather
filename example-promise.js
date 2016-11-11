@@ -8,13 +8,13 @@ function addPromise(a,b){
 	});
 }
 
-addPromise(5,6).then(function (sum) {
+addPromise(3,16).then(function (sum) {
 	console.log('Promise success', sum);
 }, function(err){
 	console.log('error', err);
 });
 
-addPromise('baljit',11).then(function (sum) {
+addPromise(15,'singh').then(function (sum) {
 	console.log('Promise success', sum);
 }, function(err){
 	console.log('error', err);
